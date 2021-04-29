@@ -1,0 +1,7 @@
+{
+  "name": "menu-online",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
