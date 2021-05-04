@@ -1,0 +1,20 @@
+.product {
+  &__image {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  &__name {
+    font-weight: 600;
+    color: #353535;
+  }
+
+  &__price {
+    font-weight: 600;
+    color: rgb(40, 167, 57);
+  }
+
+  &__description {
+    color: #555555;
+  }
+}

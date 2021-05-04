@@ -1,20 +1,58 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title> Big Burguer </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-row>
+    <!-- Promotion -->
+    <ion-col size="12" class="home__promotion">
+      <ion-item-divider>
+        <ion-label> {{ promotion.name }} </ion-label>
+      </ion-item-divider>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+      <!-- Product Items -->
+      <ion-list (click)="openPromotion()">
+        <ion-item
+          *ngFor="let product of promotion.products"
+          class="home-product"
+        >
+          <ion-thumbnail slot="start" *ngIf="product.images.length">
+            <ion-img
+              [src]="product.images[0]"
+              class="home-product__image"
+            ></ion-img>
+          </ion-thumbnail>
+          <ion-label> {{ product.name }} </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+
+    <!-- Normal Menu -->
+    <ion-col size="12" *ngFor="let category of categories">
+      <ion-item-divider>
+        <ion-label> {{ category.name }} </ion-label>
+      </ion-item-divider>
+
+      <!-- Product Items -->
+      <ion-list>
+        <ion-item
+          *ngFor="let product of category.products"
+          (click)="openProduct(product.id, category.id)"
+          class="home-product"
+        >
+          <ion-thumbnail slot="start" *ngIf="product.images.length">
+            <ion-img
+              [src]="product.images[0]"
+              class="home-product__image"
+            ></ion-img>
+          </ion-thumbnail>
+          <ion-label>
+            {{ product.name }} <br />{{ product.price | currency:"R$ "}}
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
 </ion-content>
