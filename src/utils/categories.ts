@@ -18,63 +18,52 @@ export const CATEGORIES: Categorie[] = [
     name: 'Lanches',
     products: [
       {
-        id: '60156',
-        name: 'WHOPPER®',
-        description:
-          '<p><span style="color: rgb(245,235,220)">Pão com gergelim, maionese, alface, tomate, cebola, ketchup, picles, queijo derretido e um suculento hambúrguer de pura carne bovina. Todos esses ingredientes são cuidadosamente armazenados e preparados, para você se deliciar com um sanduíche fresquinho e de alta qualidade. Imagem meramente ilustrativa.</span></p>',
-        price: 43,
+        id: '6091b3a7083f50002f1053f1',
+        name: 'Mr. Salada',
+        description: 'Hambúrguer artesanal, molho caseiro, tomate, alface.',
+        price: 12,
         images: [
-          'https://bk-cms-dev.s3.amazonaws.com/Whopper_thumb_639x324-100k_2020-12-18-193933.png?mtime=20201218143933&focal=none',
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/246b493d-fa97-4ebb-922b-95161c262755.jpg',
         ],
       },
       {
-        id: '27758',
-        name: 'WHOPPER® Duplo',
+        id: '6091c1b7083f50002f1053f6',
+        name: 'Mr. Alcatra',
         description:
-          '<p>Pão com gergelim, dois suculentos hambúrgueres de pura carne bovina, duas fatias de queijo derretido, quatro fatias de picles, alface, tomate, cebola, maionese e ketchup. Todos esses ingredientes são cuidadosamente armazenados e preparados, para você se deliciar com um sanduíche fresquinho e de alta qualidade. Imagem meramente ilustrativa.</p>',
-        price: 29,
+          'Hambúrguer artesanal, alcatra, molho caseiro, tomate, alface, cheddar e queijo e gergelim.',
+        price: 18,
         images: [
-          'https://bk-cms-dev.s3.amazonaws.com/Whopper_Duplo_thumb_639x324-100k.png?mtime=20201218150318&focal=none',
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/8e936c30-3982-40e3-8164-460bfb54fd8e.jpg',
         ],
       },
       {
-        id: '25457',
-        name: 'WHOPPER® Rodeio',
+        id: '6091c27f083f50002f1053f9',
+        name: 'Mr. Bacon',
         description:
-          '<p>Quanto mais, melhor. O nosso WHOPPER®, que você já conhece, com adição de onion rings e barbecue! Impossível resistir. Imagem meramente ilustrativa.</p>',
-        price: 47,
+          'Hambúrguer artesanal, molho caseiro, bacon, cheddar, molho de alho, gergelim.',
+        price: 17,
         images: [
-          'https://bk-cms-dev.s3.amazonaws.com/Whopper_Rodeio_thumb_639x324-100k.png?mtime=20201217144312&focal=none',
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/b4bb6171-1008-47ed-b95b-fcff03fe456d.jpg',
         ],
       },
       {
-        id: '27604',
-        name: 'WHOPPER® Furioso',
+        id: '6091c2ee083f50002f1053fc',
+        name: 'Mr. Duplo',
         description:
-          '<p>Pão com gergelim, um suculento hambúrguer de pura carne bovina, queijo, bacon, alface, tomate, maionese, pimenta jalapeño, cebolas crocantes levemente apimentadas e um delicioso molho furioso. Imagem meramente ilustrativa.</p>',
-        price: 30,
+          '2x Hambúrguer artesanais, cebola caramelizada, cheddar, queijo prato, maionese.',
+        price: 22,
         images: [
-          'https://bk-cms-dev.s3.amazonaws.com/Whopper_Furioso_thumb_639x324-100k.png?mtime=20201218145405&focal=none',
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/598d3516-4480-4d28-bf9e-92e1a128642e.jpg',
         ],
       },
       {
-        id: '25500',
-        name: 'WHOPPER® Barbecue Bacon',
+        id: '89328823jdfs0dsj812jdsa82',
+        name: 'Mr. Mix',
         description:
-          '<p>Adicionamos no nosso WHOPPER® um delicioso molho barbecue e fatias super crocantes de bacon. Resultado: Perfeição! Imagem meramente ilustrativa.</p>',
-        price: 49,
+          'Hamburgúer artesanal, cebola roxa, cheddar, queijo prato, alface, bacon, maionese, gergelim.',
+        price: 24,
         images: [
-          'https://bk-cms-dev.s3.amazonaws.com/Whopper_BBQ_Bacon_thumb_639x324-100k.png?mtime=20201217150610&focal=none',
-        ],
-      },
-      {
-        id: '27889',
-        name: 'WHOPPER® Jr.',
-        description:
-          '<p>Pão com gergelim, um saboroso hambúrguer de pura carne bovina, uma fatia de queijo derretido, duas fatias de picles, alface, tomate, cebola, maionese e ketchup. Todos esses ingredientes são cuidadosamente armazenados e preparados, para você se deliciar com um sanduíche fresquinho e de alta qualidade. Imagem meramente ilustrativa.</p>',
-        price: 27,
-        images: [
-          'https://bk-cms-dev.s3.amazonaws.com/Whopper_jr_thumb_639x324-100k.png?mtime=20201218151412&focal=none',
+          'https://images.unsplash.com/photo-1614602638662-c7c1f55c33f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         ],
       },
     ],
