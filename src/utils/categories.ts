@@ -14,7 +14,7 @@ export interface Categorie {
 
 export const CATEGORIES: Categorie[] = [
   {
-    id: '9939jfdskf23sad',
+    id: '9939jfdskf231231312sad',
     name: 'Lanches',
     products: [
       {
@@ -80,7 +80,7 @@ export const CATEGORIES: Categorie[] = [
     ],
   },
   {
-    id: '98312j1kj29sdaj12',
+    id: '98312j1kj29sdasdgb129d12aj12',
     name: 'Pratos de entrada e refeição',
     products: [
       {
@@ -141,8 +141,8 @@ export const CATEGORIES: Categorie[] = [
     ],
   },
   {
-    id: 'k29238j38fjs902js9d2kj',
-    name: 'Doces',
+    id: 'k29238j38fjs902js9dasdji12kj',
+    name: 'Sobremesas',
     products: [
       {
         name: 'Caixadoce Amo Você',
@@ -233,6 +233,57 @@ export const CATEGORIES: Categorie[] = [
           'https://static-images.ifood.com.br/image/upload/t_low/pratos/05acaaa8-baaa-4df1-9c17-0098e1011af0/202004021547_M2YW_0.jpg',
         ],
         price: 4,
+      },
+    ],
+  },
+  {
+    id: '1asdh9u129udasun9137813asdj',
+    name: 'Bebidas',
+    products: [
+      {
+        id: '6091d42f083f50002f105427',
+        name: 'Suco de laranja.',
+        description: 'Natural ou cremoso',
+        price: 12,
+        images: [
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/90ec5592-5e54-4188-a197-a01dc377d8fd.jpg',
+        ],
+      },
+      {
+        id: '6091d4f6083f50002f105444',
+        name: 'Suco de morango',
+        description: 'Natural ou cremoso.',
+        price: 12,
+        images: [
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/585c2ab2-cf34-49e3-9dcf-0d4c1e02fc43.jpg',
+        ],
+      },
+      {
+        id: '6091d5ef083f50002f105452',
+        name: 'Limonada',
+        description: null,
+        price: 12,
+        images: [
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/f8ade435-22d8-4f0a-b80a-82aeefcad312.jpg',
+        ],
+      },
+      {
+        id: '6091d660083f50002f105455',
+        name: 'Suco de frutas cítricas',
+        description: 'Natural ou cremoso.',
+        price: 12,
+        images: [
+          'https://yupsy-products-staging.s3.us-east-2.amazonaws.com/ffc27640-487f-4e4e-b3e8-ab23c249c7e5.jpg',
+        ],
+      },
+      {
+        id: '12kdsa012kdas912jds9a1kj',
+        name: 'Suco de maracujá',
+        description: 'Natural ou cremoso.',
+        price: 13,
+        images: [
+          'https://octoshop.sfo2.digitaloceanspaces.com/lojas/2marias/uploads_produto/suco-de-maracuja-5cdd87ba01239.jpg',
+        ],
       },
     ],
   },
